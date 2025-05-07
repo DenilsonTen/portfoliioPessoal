@@ -1,0 +1,156 @@
+<header class="bg-dark sticky-top">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<nav class="navbar bg-dark">
+					<div class="navbar-brand">
+						<a href="#"> <img class="logos ms-4 p-2" src="/img/logo.png"></a>
+					</div>
+					<div class="d-flex">
+						<h3><a class="preto ms-2" href="/sobre">Sobre</a></h3>
+						<h3><a class="preto ms-2" href="/trabalhos">Trabalhos</a></h3>
+						<h3><a class="preto ms-2 me-5" href="/contato">Contato</a></h3>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- Abaixo carrousel de imagem com descrição -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-6  bg-primary p-5">
+			<img style="width: 100%;" src="/img/fotografo1.jpg" class="rounded">
+		</div>
+		<div class="col-6 bg-primary">
+			<div class="d-flex">
+				<div class="card mt-5" style="width: 15em;">
+					<div class="card-body">
+						<h5 class="card-title">Maria</h5>
+						<p class="card-text text-body-tertiary fst-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus dapibus neque ac lobortis. Duis."</p>
+					</div>
+				</div>
+				<div class="card mt-5 ms-5" style="width: 15em;">
+					<div class="card-body">
+						<h5 class="card-title">Carlos</h5>
+						<p class="card-text text-body-tertiary fst-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus dapibus neque ac lobortis. Duis."</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-flex">
+				<div class="card mt-4" style="width: 15em;">
+					<div class="card-body">
+						<h5 class="card-title">Roberto</h5>
+						<p class="card-text text-body-tertiary fst-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus dapibus neque ac lobortis. Duis."</p>
+					</div>
+				</div>
+				<div class="card mt-4 ms-5" style="width: 15em;">
+					<div class="card-body">
+						<h5 class="card-title">Pedro</h5>
+						<p class="card-text text-body-tertiary fst-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus dapibus neque ac lobortis. Duis."</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<!-- Conteudo do site -->
+<div class="container-fluid">
+	<!-- Cards exemplo de trabalho -->
+	<div class="row bg-dark p-4">
+		<div class="Col-4">
+			<div class="card">
+			  <img src="/img/camera.jpg" class="card-img-top">
+			  <div class="card-body">
+			    <h5 class="card-title">Fotos em Alta Qualidade</h5>
+			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus dapibus neque ac lobortis. Duis.</p>
+			    <a href="#" class="btn btn-primary">Visualisar</a>
+			  </div>
+			</div>
+		</div>
+		<div class="Col-4">
+			<div class="card">
+			  <img src="/img/gatos2.jpg" class="card-img-top">
+			  <div class="card-body">
+			    <h5 class="card-title">Lembranças</h5>
+			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus dapibus neque ac lobortis. Duis.</p>
+			    <a href="#" class="btn btn-primary">Visualisar</a>
+			  </div>
+			</div>
+		</div>
+		<div class="Col-4">
+			<div class="card">
+			  <img src="/img/gato_pessoa.jpg" class="card-img-top">
+			  <div class="card-body">
+			    <h5 class="card-title">Seus Momentos Gravados</h5>
+			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus dapibus neque ac lobortis. Duis.</p>
+			    <a href="#" class="btn btn-primary">Visualisar</a>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<!-- fim -->
+</div>
+<!-- Contrate -->
+<div class="container-fluid mt-3">
+	<div class="row p-5">
+		<div class="col-6">
+			<img src="/img/fotografo.jpg" class="img-fluid rounded mt-5">
+		</div>
+		<div class="col-6">
+			<h1 class="text-center">Contrate Meu trabalho</h1>
+			<form action="/contato_envio" method="post">
+					<label class="form-label">Nome</label>
+					<input class="form-control" type="text" name="nome">
+					<label class="form-label">Email</label>
+					<input class="form-control" type="email" name="email">
+					<label class="form-label">Telefone</label>
+					<input class="form-control" type="tel" name="tel">
+					<label class="form-label">Mensagem</label>
+					<textarea class="form-control" name="mensagem"></textarea>
+					<input class="form-control btn btn-success mt-4" type="submit" value="Entrar em Contato">
+			</form>
+		</div>
+	</div>
+</div>
+	<!-- fim -->
+	<!-- Rodapé da Página abaixo -->
+<footer>
+	<div class="container-fluid bg-dark">
+		<div class="row p-3 mb-3">
+			<div class="col-4">
+				<h4 class="text-white">Redes Sociais</h4>
+				<span class="text-white"><i class="fa-brands fa-twitter fa-2xl ms-2 mt-5"></i></span>
+				<span class="text-white"><i class="fa-brands fa-facebook fa-2xl ms-2"></i></i></span>
+				<span class="text-white"><i class="fa-brands fa-instagram fa-2xl ms-2"></i></i></span>
+			</div>
+			<div class="col-4">
+				<h4 class="text-white">Informações</h4>
+				<br>
+				<a href="/sobre">Sobre</a><br>
+				<a href="/trabalhos">Trabalhos</a>
+			</div>
+			<div class="col-4 ">
+				<h4 class="text-white">Contato</h4>
+				<br>
+				<div class="d-flex">
+					<i class="fa-solid fa-phone text-white"></i><h5 class="text-white ms-2" style="font-size: 0.9em;">(99) 99999-9999</h5>
+				</div>
+				<div class="d-flex">
+					<i class="fa-solid fa-envelope text-white"></i><h5 class="text-white ms-2" style="font-size: 0.9em;">emailteste@teste.com</h5>
+				</div>
+				
+				
+
+			</div>
+			
+		</div>
+		<div class="bg-dark p-3">
+			<h2 class="text-white text-center">Created By @denilson</h2>
+		</div>
+	</div>
+	
+</footer>
